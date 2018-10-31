@@ -1,11 +1,11 @@
+
+
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
   <title>Crystal Game</title>
-
-
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet"> 
@@ -21,83 +21,75 @@
  <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
-
-  
 </head>
 <body>
-    <div class="jumbotron jumbotron-fluid" style="text-align: center;">
+    <div class="jumbotron jumbotron-fluid">
         <div class="container">
         <div class="row">
-            <div class="col-sm-4"></div>
+        <div class="col-sm-4"></div>
         <div class="col-sm-4">
-    <h1 class="animated pulse">Crystal Game</h1>
+        <h1 class="animated pulse">The Magical Crystal Game</h1>
         </div>
-            <div class="col-sm-4"></div>
+        <div class="col-sm-4"></div>
         </div>
 
-        <div class="row">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-3">
-    <p class="animated pulse"> Click on the crystals below, and try to match this number: </p>
+    <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-3">
+    <p class="animated pulse"> Try to match this number by clicking on the crystals below! </p>
     </div>
     <div class="col-sm-3">
-    <div id="numToGuess"></div>
+        <!--The number to guess:-->
+        <div id="numToGuess"></div>
     </div>
     <div class="col-sm-3"></div>
     </div>
-
     <div class="row">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-2">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-2">
     <p class="animated pulse">  Your score:</p>
     </div>
-            <div class="col-sm-2">
+    <div class="col-sm-2">
+        <!--Your score so far-->
     <div id = "yourscore" ></div>
     </div>
     <div class="col-sm-4"></div>
     </div>
-    
     <div class="row"></div>
-      
-        <div class="col-sm-4"></div>
-        <div class="col-sm-2">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-2">
     <div id= "wins" class="animated pulse">Wins:</div>
     </div>
-        <div class="col-sm-2">
+    <div class="col-sm-2">
     <div id="losses" class="animated pulse">Losses:</div>
- </div>
-        <div class="col-sm-4"></div>
+    </div>
+    <div class="col-sm-4"></div>
     </div>
     
     
     <!-- the crystals-->
    
         <div class= "row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-2">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2">
         <div class="crystals" id="one">crystal</div>
-                </div>
-            <div class="col-sm-2">
+        </div>
+        <div class="col-sm-2">
         <div class= "crystals" id="two">crystal</div>
-                </div>
-            <div class="col-sm-2">
+        </div>
+        <div class="col-sm-2">
         <div class="crystals" id="three">crystal</div>
         </div>
         </div>
-            <div class="col-sm-3"></div>
-    </div>
-    </div>
-</div>
-
-    <footer>
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3"> &#169; 2018 Katherine Stout
-         
+        <div class="col-sm-3"></div>
         </div>
-        <!-- Copyright -->
-      
+        </div>
+        </div>
+
+        <footer>
+        <div class="footer-copyright text-center py-3"> &#169; 2018 Katherine Stout
+        </div>
       </footer>
-      
 
 </body>
 </html>

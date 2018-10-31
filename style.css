@@ -1,3 +1,9 @@
 .jumbotron{
     text-align: center;
+    background: none;
+    font-family: 'Josefin Sans', sans-serif;
 }
+.crystals{
+    padding: 20px;
+}
+

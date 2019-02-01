@@ -8,3 +8,11 @@ This is a simple vanilla javascript game.
 A random number is generated, click on the crystals to try and get to that random number.
 If you get to the random number exactly, you will gain a point!
 If you go past the random number, you will lose.
+
+## Built With
+
+Vanilla Javascript, jQuery, Boostrap, animate.css, and CSS.
+
+## Authors/ Contributors
+
+Katherine Stout

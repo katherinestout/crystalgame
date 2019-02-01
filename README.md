@@ -1,7 +1,7 @@
 # crystalgame
 This is a simple vanilla javascript game. 
 
-
+<img width="932" alt="crystal" src="https://user-images.githubusercontent.com/39039142/52142923-256da200-2628-11e9-9dba-4b5e6120c856.png">
 
 
 ## How to play

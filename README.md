@@ -1,5 +1,8 @@
 # crystalgame
-This is a simple javascript game. 
+This is a simple vanilla javascript game. 
+
+
+
 
 ## How to play
 A random number is generated, click on the crystals to try and get to that random number.
